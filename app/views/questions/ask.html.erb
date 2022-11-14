@@ -1,11 +1,14 @@
 <div class="container">
   <div>
     <h1>Stupid Coaching</h1>
-    <p>Ask your coach a question</p>
+    <p>Ask your coach anything</p>
   </div>
 
-  <form action="/answer" data-turbo="false">
-    <input type="text" name="question">
+<div class="col-auto">
+  <form class="d-flex" action="/answer" data-turbo="false">
+    <input type="text" name="question" class="form-control">
     <input type="submit" value="Ask!" class="btn btn-primary">
   </form>
+</div>
+
 </div>
